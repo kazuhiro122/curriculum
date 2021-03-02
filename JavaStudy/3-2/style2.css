@@ -1,0 +1,49 @@
+#wrapper {
+    width: 400px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.header {
+    height: 100px;
+    background-color: #141f40;
+}
+.left {
+    width: 150px;
+    height: 250px;
+    float: left;
+    background-color: #80bfa8;
+}
+.right {
+    width: 100px;
+    height: 150px;
+    float: right;
+    background-color: #ff9e6b;
+}
+.contents {
+    float: left;
+}
+.center {
+    width: 150px;
+    height: 50px;
+    background-color: #dbd400;
+}
+.center2 {
+    width: 150px;
+    height: 100px;
+    background-color: #0093b7;
+}
+.center3 {
+    width: 250px;
+    height: 100px;
+    float: left;
+    background-color: #8c2727;
+}
+.footer {
+    height: 100px;
+    background-color: #d98d30;
+    float: none;
+}
