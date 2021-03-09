@@ -3,9 +3,7 @@
   <display-name>Check3</display-name>
   <!-- ここから追記 -->
   <welcome-file-list>
- 	<welcome-file>header.jsp</welcome-file>
     <welcome-file>jspTest.jsp</welcome-file>
-    <welcome-file>footer.jsp</welcome-file>
   </welcome-file-list>
   <!-- ここまで追記 -->
 </web-app>
